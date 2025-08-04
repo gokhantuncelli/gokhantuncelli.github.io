@@ -4,11 +4,13 @@ title: "Haberler"
 permalink: /haberler/
 ---
 
-# 📰 Yeni Proje Başladı!
+# 📰 Üniversitedeki ilk dersimi verdim!
 
-04 Ağustos 2025 itibariyle yeni projemize başladık.  
-Bu projede mikroplastiklerin su ürünleri üzerindeki etkilerini araştıracağız.
+“İÜ AİLECE TERCİH GÜNLERİ” kapsamında gerçekleştirilen etkinliklerden birisi de “İlk Ders 101” başlıklı amfi dersleri idi.  
+Ben de Su Bilimleri Fakültesi'nin ilk dersi niteliğindeki "Su Bilimleri ve Gelecek Vizyonu" isimli dersi gerçekleştirdim.
 
-![Proje Görseli](/images/haberfoto1.jpg)
+![Proje Görseli](/images/[haberfoto1](IMG-20250729-WA0096.jpg)
+![Proje Görseli](/images/[haberfoto1](IMG-20250730-WA0041.jpg)
+![Proje Görseli](/images/[haberfoto1](IMG-20250730-WA0043.jpg)
+![Proje Görseli](/images/[haberfoto1](IMG-20250730-WA0044.jpg)
 
-Projeye ait detaylar yakında paylaşılacaktır.
