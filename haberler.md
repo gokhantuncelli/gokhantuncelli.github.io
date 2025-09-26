@@ -4,17 +4,31 @@ title: "Haberler"
 permalink: /haberler/
 ---
 
-# 📰 Üniversitedeki ilk dersimi verdim!
+# 📰 Akuaponik Sistemler Haberi (TRT Haber)
+**10 Şubat 2021**  
+Topraksız tarım ile su ürünleri yetiştiriciliğinin birleşiminden oluşan **akuaponik sistemler**, hem ekonomik hem de ekolojik etkileriyle yüksek verimlilik sağlıyor.  
 
-“İÜ AİLECE TERCİH GÜNLERİ” kapsamında gerçekleştirilen etkinliklerden birisi de “İlk Ders 101” başlıklı amfi dersleri idi.  
-Ben de Su Bilimleri Fakültesi'nin ilk dersi niteliğindeki "Su Bilimleri ve Gelecek Vizyonu" isimli dersi gerçekleştirdim.
+🔗 [Haberi oku → TRT Haber](https://www.trthaber.com/haber/bilim-teknoloji/ekonomik-ve-ekolojik-tarim-modeli-akuaponik-555314.html)
 
-Aşağıda dersten bazı anlara ait görselleri bulabilirsiniz:
+---
 
-<br>
+# 📰 Üniversitedeki İlk Dersimi Verdim!
+**29 Temmuz 2025**  
+“İÜ Ailece Tercih Günleri” kapsamında düzenlenen **“İlk Ders 101”** etkinliğinde, Su Bilimleri Fakültesi’nin ilk amfi dersini *“Su Bilimleri ve Gelecek Vizyonu”* başlığıyla verdim.  
 
-<img src="/images/IMG-20250729-WA0096.jpg" alt="Ders Fotoğrafı 1" width="300">  
-<img src="/images/IMG-20250730-WA0041.jpg" alt="Ders Fotoğrafı 2" width="300">  
-<img src="/images/IMG-20250730-WA0043.jpg" alt="Ders Fotoğrafı 3" width="300">  
-<img src="/images/IMG-20250730-WA0044.jpg" alt="Ders Fotoğrafı 4" width="300">  
-<img src="/images/IMG_20250729_163343_998.webp" alt="Ders Fotoğrafı 5" width="300">
+Aşağıda dersten kareler:  
+
+![Ders Fotoğrafı 1](/images/IMG-20250729-WA0096.jpg){:width="300px"}  
+![Ders Fotoğrafı 2](/images/IMG-20250730-WA0041.jpg){:width="300px"}  
+![Ders Fotoğrafı 3](/images/IMG-20250730-WA0043.jpg){:width="300px"}  
+![Ders Fotoğrafı 4](/images/IMG-20250730-WA0044.jpg){:width="300px"}  
+![Ders Fotoğrafı 5](/images/IMG_20250729_163343_998.webp){:width="300px"}
+
+---
+
+# 📰 Akuaponik Atıklarının Mikroalg Üretiminde Kullanılması (Anadolu Ajansı)
+**25 Eylül 2025**  
+Balık yetiştiriciliği atıkları, mikroalglere dönüştürülerek denizlerin kirlilik yükünün azaltılmasına katkı sağlıyor.  
+
+🔗 [Haberi oku → Anadolu Ajansı](https://www.aa.com.tr/tr/yesilhat/bilim/balik-yetistiriciligi-atiklari-alglere-donusturulerek-denizlerin-kirlilik-yuku-azaltiliyor/1827331)
+
