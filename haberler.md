@@ -17,12 +17,11 @@ Topraksız tarım ile su ürünleri yetiştiriciliğinin birleşiminden oluşan 
 “İÜ Ailece Tercih Günleri” kapsamında düzenlenen **“İlk Ders 101”** etkinliğinde, Su Bilimleri Fakültesi’nin ilk amfi dersini *“Su Bilimleri ve Gelecek Vizyonu”* başlığıyla verdim.  
 
 Aşağıda dersten kareler:  
-
-![Ders Fotoğrafı 1](/images/IMG-20250729-WA0096.jpg){:width="300px"}  
-![Ders Fotoğrafı 2](/images/IMG-20250730-WA0041.jpg){:width="300px"}  
-![Ders Fotoğrafı 3](/images/IMG-20250730-WA0043.jpg){:width="300px"}  
-![Ders Fotoğrafı 4](/images/IMG-20250730-WA0044.jpg){:width="300px"}  
-![Ders Fotoğrafı 5](/images/IMG_20250729_163343_998.webp){:width="300px"}
+![Ders Fotoğrafı 1]({{ "/images/IMG-20250729-WA0096.jpg" | relative_url }}){:width="300px"}
+![Ders Fotoğrafı 1]({{ "/images/IMG-20250729-WA0041.jpg" | relative_url }}){:width="300px"}
+![Ders Fotoğrafı 1]({{ "/images/IMG-20250729-WA0043.jpg" | relative_url }}){:width="300px"}
+![Ders Fotoğrafı 1]({{ "/images/IMG-20250729-WA0044.jpg" | relative_url }}){:width="300px"}
+![Ders Fotoğrafı 1]({{ "/images/IMG_20250729_163343_998.webp" | relative_url }}){:width="300px"}
 
 ---
 
