@@ -43,9 +43,6 @@ Aşağıda dersten kareler:
   <a href="{{ "/IMG-20250730-WA0044.jpg" | relative_url }}" target="_blank" rel="noopener">
     <img src="{{ "/IMG-20250730-WA0044.jpg" | relative_url }}" alt="Ders Fotoğrafı 4">
   </a>
-  <a href="{{ "/IMG_20250729_163343_998.webp" | relative_url }}" target="_blank" rel="noopener">
-    <img src="{{ "/IMG_20250729_163343_998.webp" | relative_url }}" alt="Ders Fotoğrafı 5">
-  </a>
 </div>
 
 ---
