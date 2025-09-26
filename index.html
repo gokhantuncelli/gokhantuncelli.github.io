@@ -1,105 +1,51 @@
 <!DOCTYPE html>
 <html lang="tr">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
   <title>Dr. Öğr. Üyesi Gökhan Tunçelli</title>
-  <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet" />
   <style>
-    :root{
-      --blue-900:#003366;
-      --blue-700:#0055a5;
-    }
+    :root{--blue-900:#003366;--blue-700:#0055a5;--bg:#f8f9fa}
     *{box-sizing:border-box}
-    body {
-      font-family: 'Inter', sans-serif;
-      margin: 0;
-      padding: 0;
-      line-height: 1.6;
-      background-color: #f8f9fa;
-      color: #333;
-    }
-    .container{
-      max-width: 1100px;
-      margin: 0 auto;
-      padding: 0 16px;
-    }
-    header {
-      background-color: var(--blue-900);
-      color: white;
-      padding: 16px 0;
-    }
-    /* BRAND (logo solda, metin sağında) */
-    .brand{
-      display: flex;
-      align-items: center;
-      gap: 14px;
-    }
-    .brand img{
-      width:72px; height:72px;
-      border-radius:50%;
-      object-fit:cover;
-      box-shadow:0 2px 10px rgba(0,0,0,.18);
-      flex: 0 0 auto;
-    }
-    .brand h1{
-      margin:0;
-      font-size: 1.6rem;
-      line-height:1.2;
-    }
-    .brand p{
-      margin:.15rem 0 0 0;
-      opacity:.9;
-      line-height:1.35;
-    }
-
-    nav {
-      background-color: var(--blue-700);
-    }
-    nav .container{
-      display: flex;
-      justify-content: center; /* istersen 'flex-start' yaparak sola yaslayabilirsin */
-      gap: 2rem;
-      padding: 12px 16px;
-    }
-    nav a {
-      color: white;
-      text-decoration: none;
-      font-weight: bold;
-    }
-    section {
-      max-width: 960px;
-      margin: auto;
-      padding: 2rem 1rem;
-    }
-    h2 {
-      color: var(--blue-900);
-    }
-    footer {
-      background-color: var(--blue-900);
-      color: white;
-      text-align: center;
-      padding: 1rem;
-      margin-top: 3rem;
-    }
-
-    /* Küçük ekran uyumu */
+    body{margin:0;font-family:Inter,system-ui,-apple-system,Segoe UI,Roboto,Arial,sans-serif;line-height:1.6;background:var(--bg);color:#222}
+    .container{max-width:1100px;margin:0 auto;padding:0 16px}
+    /* HEADER (logo solda, metin sağda) */
+    header{background:var(--blue-900);color:#fff}
+    .brand{display:flex;align-items:center;gap:14px;padding:14px 0;text-decoration:none;color:inherit}
+    .brand img{width:72px;height:72px;border-radius:50%;object-fit:cover;box-shadow:0 2px 10px rgba(0,0,0,.18)}
+    .brand h1{margin:0;font-size:1.6rem;line-height:1.2}
+    .brand p{margin:.2rem 0 0;opacity:.9}
+    /* NAV */
+    nav{background:var(--blue-700)}
+    .nav-inner{display:flex;gap:22px;align-items:center;padding:12px 0}
+    .nav-inner a{color:#fff;text-decoration:none;font-weight:700}
+    .nav-inner a:hover{text-decoration:underline}
+    /* SECTIONS */
+    section{max-width:960px;margin:0 auto;padding:28px 16px}
+    h2{color:var(--blue-900);margin-top:0}
+    ul{padding-left:18px}
+    /* FOOTER */
+    footer{background:var(--blue-900);color:#fff;text-align:center;padding:16px;margin-top:32px}
+    /* RESPONSIVE */
     @media (max-width:560px){
-      .brand h1{ font-size:1.25rem; }
-      .brand img{ width:60px; height:60px; }
+      .brand img{width:58px;height:58px}
+      .brand h1{font-size:1.28rem}
+      .nav-inner{gap:14px;flex-wrap:wrap}
     }
   </style>
 </head>
 <body>
 
-  <!-- HEADER: logo solda -->
+  <!-- HEADER -->
   <header>
     <div class="container">
-      <a href="/" class="brand" style="text-decoration:none; color:inherit;">
-        <img src="/assets/images/profil.jpeg" alt="Profil Fotoğrafı - Gökhan Tunçelli">
+      <a class="brand" href="/">
+        <img src="/assets/images/profil.jpeg" alt="Profil Fotoğrafı - Gökhan Tunçelli" />
         <div>
           <h1>Dr. Öğr. Üyesi Gökhan Tunçelli</h1>
-          <p>İstanbul Üniversitesi Su Bilimleri Fakültesi<br>Su Ürünleri Yetiştiriciliği ve Hastalıkları Bölümü · gokhan.tuncelli@istanbul.edu.tr</p>
+          <p>İstanbul Üniversitesi Su Bilimleri Fakültesi · Su Ürünleri Yetiştiriciliği ve Hastalıkları</p>
+          <p>E-posta: gokhan.tuncelli@istanbul.edu.tr</p>
         </div>
       </a>
     </div>
@@ -107,15 +53,58 @@
 
   <!-- NAV -->
   <nav>
-    <div class="container">
+    <div class="container nav-inner">
       <a href="#about">Hakkımda</a>
       <a href="#publications">Yayınlar</a>
       <a href="#projects">Projeler</a>
-      <a href="/haberler">Haberler</a>
+      <a href="/haberler/">Haberler</a>
       <a href="#contact">İletişim</a>
     </div>
   </nav>
 
+  <!-- ABOUT -->
   <section id="about">
     <h2>Hakkımda</h2>
-    <p>İstanbul Üniversitesi Su Biliml
+    <p>İstanbul Üniversitesi Su Bilimleri Fakültesi’nde Dr. öğretim üyesi olarak çalışmaktayım. Araştırmalarım akuakültür, akuaponik, entegre multitrofik akuakültür (IMTA), mikroplastik kirliliği, balıklarda üreme fizyolojisi ve yüzme fizyolojisi alanlarında yoğunlaşmaktadır. TÜBİTAK, COST, BAP destekli projelerde proje yürütücüsü ve araştırmacı olarak görev yapmaktayım. Su bilimleri alanında bu zamana kadar 20’nin üzerinde bilimsel makale, 4 uluslararası kitap bölümü ve 40’dan fazla sempozyum bildirisi yayımladım.</p>
+  </section>
+
+  <!-- PUBLICATIONS -->
+  <section id="publications">
+    <h2>Öne Çıkan Yayınlar</h2>
+    <ul>
+      <li><a href="https://www.taylorfrancis.com/chapters/edit/10.1201/9781032717814-9/plastisphere-aquatic-food-production-systems-seafood-safety-idil-tuncelli-nuray-erkan-gokhan-tuncelli-devrim-memis" target="_blank" rel="noopener">Can Tunçelli, İ., Erkan Özden, N., Tunçelli, G., &amp; Memiş, D. (2025). <em>Plastisphere in Aquatic Food Production Systems and Seafood Safety</em>. CRC Press.</a></li>
+      <li><a href="https://onlinelibrary.wiley.com/doi/10.1111/jfb.15697" target="_blank" rel="noopener">Tunçelli, G., &amp; Memiş, D. (2024). The effect of swimming activity and feed restriction of rainbow trout (Oncorhynchus mykiss) on water quality and fish‐plant growth performance in aquaponics. <em>Journal of Fish Biology</em>, 104(5), 1493–1502.</a></li>
+      <li><a href="https://www.sciencedirect.com/science/article/pii/S0044848621006918" target="_blank" rel="noopener">Tunçelli, G., &amp; Pirhonen, J. (2021). Effects of weekend starvation and the duration of daily feeding on production parameters of rainbow trout Oncorhynchus mykiss. <em>Aquaculture</em>, 543, 737028.</a></li>
+      <li><a href="https://www.sciencedirect.com/science/article/pii/S0048969724036520" target="_blank" rel="noopener">Tuncelli, G., Tuncelli, I. C., Dagsuyu, E., Turkyilmaz, I. B., Yanardag, R., &amp; Erkan, N. (2024). The effect of different types of microplastic and acute cadmium exposure on the <em>Mytilus galloprovincialis</em> (Lamarck, 1819). <em>Science of The Total Environment</em>, 936, 173505.</a></li>
+      <li><a href="https://link.springer.com/article/10.1007/s10499-025-02016-6" target="_blank" rel="noopener">Tuncelli, G., Momin, M., &amp; Memis, D. (2025). Impact of early and late maturation on the reproductive performance broodstocks of Russian sturgeon (<em>Acipenser gueldenstaedtii</em>). <em>Aquaculture International</em>, 33(5), 322.</a></li>
+    </ul>
+  </section>
+
+  <!-- PROJECTS -->
+  <section id="projects">
+    <h2>Projeler</h2>
+    <ul>
+      <li><strong>Swimming Performance and Heart Rate of Eels During Sexual Maturation</strong><br />AB Destekli Proje (AQUAEXCEL, TNA) — Tunçelli G. (Yürütücü), Memiş D., Palstra A., Abbink W.</li>
+      <li><strong>Gökkuşağı Alabalığı ve Karaca Mersin Balığında Mikroplastik Kirliliğinin Yüzme Performansına Etkisi</strong><br />Yükseköğretim Kurumları Destekli Proje (2024–2026) — Tunçelli G. (Yürütücü) ve ekibi</li>
+      <li><strong>Mikroplastiklerin Tatlı Su IMTA Sisteminde Etkisi</strong><br />TÜBİTAK – AB COST Projesi (2024–2027) — Tunçelli G. (Araştırmacı)</li>
+      <li><strong>Mikroplastik ve Cıva Maruziyetinin Midyelerde (<em>Mytilus galloprovincialis</em>, Lamarck, 1819) Oluşturduğu Hasarın Bor Katkılı Depurasyonda Giderimi</strong><br />TÜBİTAK – 1001 Projesi (2022–2025) — Tunçelli G. (Araştırmacı)</li>
+    </ul>
+  </section>
+
+  <!-- CONTACT -->
+  <section id="contact">
+    <h2>İletişim</h2>
+    <p><strong>Adres:</strong> İstanbul Üniversitesi Su Bilimleri Fakültesi, Onaltı Mart Şehitleri Caddesi No:2, Fatih / İstanbul</p>
+    <p><strong>E-posta:</strong> gokhan.tuncelli@istanbul.edu.tr</p>
+    <p><a href="https://avesis.istanbul.edu.tr/gokhan.tuncelli" target="_blank" rel="noopener">AVESİS Profilim</a></p>
+    <p><a href="https://scholar.google.com.tr/citations?user=Mch2lkkAAAAJ" target="_blank" rel="noopener">Google Scholar Profilim</a></p>
+    <p><a href="https://orcid.org/0000-0003-1708-7272" target="_blank" rel="noopener">ORCID</a></p>
+  </section>
+
+  <!-- FOOTER -->
+  <footer>
+    <p>&copy; 2025 Dr. Öğr. Üyesi Gökhan Tunçelli</p>
+  </footer>
+
+</body>
+</html>
