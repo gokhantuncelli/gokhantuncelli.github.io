@@ -13,6 +13,34 @@ permalink: /haberler/
   .extlink small { color:#666; display:block; margin-top:4px; }
 </style>
 
+# 📰 Mikroplastikler Su Ürünleri Yetiştiriciliğinde Üretimi Düşürebilir (Anadolu Ajansı)
+**3 Nisan 2026**  
+İstanbul Üniversitesinden bilim insanlarının yürüttüğü araştırmada, mikroplastik maruziyetinin su ürünleri yetiştiriciliğinde üretimi olumsuz etkileyebileceği ve toplam biyokütlede önemli düşüşlere yol açabileceği ortaya kondu.
+
+<p class="extlink">
+  🔗 <a href="https://www.aa.com.tr/tr/yesilhat/bilim/mikroplastikler-su-urunleri-yetistiriciliginde-uretimi-dusurebilir/1829738" target="_blank" rel="noopener">Haberi oku → Anadolu Ajansı</a>
+  <small>Kaynak: Anadolu Ajansı</small>
+</p>
+
+Aşağıda haberden ve çalışmadan kareler:
+
+<div class="gallery">
+  <a href="{{ "/aa-mikroplastik-1.jpg" | relative_url }}" target="_blank" rel="noopener">
+    <img src="{{ "/aa-mikroplastik-1.jpg" | relative_url }}" alt="Mikroplastik haberi görsel 1">
+  </a>
+  <a href="{{ "/aa-mikroplastik-2.jpg" | relative_url }}" target="_blank" rel="noopener">
+    <img src="{{ "/aa-mikroplastik-2.jpg" | relative_url }}" alt="Mikroplastik haberi görsel 2">
+  </a>
+  <a href="{{ "/aa-mikroplastik-3.jpg" | relative_url }}" target="_blank" rel="noopener">
+    <img src="{{ "/aa-mikroplastik-3.jpg" | relative_url }}" alt="Mikroplastik haberi görsel 3">
+  </a>
+  <a href="{{ "/aa-mikroplastik-4.jpg" | relative_url }}" target="_blank" rel="noopener">
+    <img src="{{ "/aa-mikroplastik-4.jpg" | relative_url }}" alt="Mikroplastik haberi görsel 4">
+  </a>
+</div>
+
+---
+
 # 📰 Akuaponik Atıklarının Mikroalg Üretiminde Kullanılması (Anadolu Ajansı)
 **25 Eylül 2025**  
 Balık yetiştiriciliği atıkları, mikroalglere dönüştürülerek denizlerin kirlilik yükünün azaltılmasına katkı sağlıyor.  
