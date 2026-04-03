@@ -6,43 +6,124 @@
   <title>Dr. Öğr. Üyesi Gökhan Tunçelli</title>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet" />
   <style>
-    :root{--blue-900:#003366;--blue-700:#0055a5;--bg:#f8f9fa}
+    :root{
+      --blue-900:#003366;
+      --blue-700:#0055a5;
+      --bg:#f8f9fa;
+    }
     *{box-sizing:border-box}
     html{scroll-behavior:smooth}
-    body{margin:0;font-family:Inter,system-ui,-apple-system,Segoe UI,Roboto,Arial,sans-serif;line-height:1.6;background:var(--bg);color:#222}
+    body{
+      margin:0;
+      font-family:Inter,system-ui,-apple-system,Segoe UI,Roboto,Arial,sans-serif;
+      line-height:1.6;
+      background:var(--bg);
+      color:#222;
+    }
     .container{max-width:1100px;margin:0 auto;padding:0 16px}
+
     /* HEADER */
     header{background:var(--blue-900);color:#fff}
-    .brand{display:flex;align-items:center;gap:14px;padding:14px 0;text-decoration:none;color:inherit}
-    .brand img{width:72px;height:72px;border-radius:50%;object-fit:cover;box-shadow:0 2px 10px rgba(0,0,0,.18)}
+    .brand{
+      display:flex;
+      align-items:center;
+      gap:14px;
+      padding:14px 0;
+      text-decoration:none;
+      color:inherit;
+    }
+    .brand img{
+      width:72px;
+      height:72px;
+      border-radius:50%;
+      object-fit:cover;
+      box-shadow:0 2px 10px rgba(0,0,0,.18);
+    }
     .brand h1{margin:0;font-size:1.6rem;line-height:1.2}
     .brand p{margin:.2rem 0 0;opacity:.9}
+
     /* NAV */
     nav{background:var(--blue-700)}
-    .nav-inner{display:flex;gap:22px;align-items:center;padding:12px 0}
-    .nav-inner a{color:#fff;text-decoration:none;font-weight:700}
+    .nav-inner{
+      display:flex;
+      gap:22px;
+      align-items:center;
+      padding:12px 0;
+    }
+    .nav-inner a{
+      color:#fff;
+      text-decoration:none;
+      font-weight:700;
+    }
     .nav-inner a:hover{text-decoration:underline}
+
     /* SECTIONS */
-    section{max-width:960px;margin:0 auto;padding:28px 16px}
+    section{
+      max-width:960px;
+      margin:0 auto;
+      padding:28px 16px;
+    }
     h2{color:var(--blue-900);margin-top:0}
     ul{padding-left:18px}
+
     /* NEWS */
-    .news-card{background:#fff;border-radius:14px;padding:16px;border:1px solid #e7e9ec;margin:18px 0}
+    .news-card{
+      background:#fff;
+      border-radius:14px;
+      padding:16px;
+      border:1px solid #e7e9ec;
+      margin:18px 0;
+      box-shadow:0 4px 12px rgba(0,0,0,.04);
+    }
     .news-card h3{margin:0 0 4px 0}
-    .news-meta{font-size:.92rem;color:#555;margin-bottom:10px}
-    .gallery{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:12px;margin:12px 0}
-    .gallery a{display:block;border-radius:12px;overflow:hidden;box-shadow:0 4px 14px rgba(0,0,0,.08);transition:transform .15s ease}
+    .news-meta{
+      font-size:.92rem;
+      color:#555;
+      margin-bottom:10px;
+    }
+    .gallery{
+      display:grid;
+      grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+      gap:12px;
+      margin:12px 0;
+    }
+    .gallery a{
+      display:block;
+      border-radius:12px;
+      overflow:hidden;
+      box-shadow:0 4px 14px rgba(0,0,0,.08);
+      transition:transform .15s ease;
+      background:#fff;
+    }
     .gallery a:hover{transform:translateY(-2px)}
-    .gallery img{width:100%;height:auto;display:block}
+    .gallery img{
+      width:100%;
+      height:260px;
+      object-fit:cover;
+      display:block;
+    }
     .extlink{margin-top:8px}
-    .extlink small{color:#666;display:block;margin-top:4px}
+    .extlink small{
+      color:#666;
+      display:block;
+      margin-top:4px;
+    }
+
     /* FOOTER */
-    footer{background:var(--blue-900);color:#fff;text-align:center;padding:16px;margin-top:32px}
+    footer{
+      background:var(--blue-900);
+      color:#fff;
+      text-align:center;
+      padding:16px;
+      margin-top:32px;
+    }
+
     /* RESPONSIVE */
     @media (max-width:560px){
       .brand img{width:58px;height:58px}
       .brand h1{font-size:1.28rem}
       .nav-inner{gap:14px;flex-wrap:wrap}
+      .gallery img{height:220px}
     }
   </style>
 </head>
@@ -76,20 +157,61 @@
   <!-- ABOUT -->
   <section id="about">
     <h2>Hakkımda</h2>
-    <p>İstanbul Üniversitesi Su Bilimleri Fakültesi’nde Dr. öğretim üyesi olarak çalışmaktayım. Araştırmalarım akuakültür, akuaponik, entegre multitrofik akuakültür (IMTA), mikroplastik kirliliği, balıklarda üreme fizyolojisi ve yüzme fizyolojisi alanlarında yoğunlaşmaktadır. TÜBİTAK, COST, BAP destekli projelerde proje yürütücüsü ve araştırmacı olarak görev yapmaktayım. Su bilimleri alanında bu zamana kadar 20’nin üzerinde bilimsel makale, 4 uluslararası kitap bölümü ve 40’dan fazla sempozyum bildirisi yayımladım.</p>
+    <p>
+      İstanbul Üniversitesi Su Bilimleri Fakültesi’nde Dr. Öğretim Üyesi olarak görev yapmaktayım.
+      Araştırmalarım akuakültür, akuaponik, entegre multitrofik akuakültür (IMTA), mikroplastik kirliliği,
+      balıklarda üreme fizyolojisi ve yüzme fizyolojisi alanlarında yoğunlaşmaktadır. TÜBİTAK, COST ve BAP
+      destekli projelerde proje yürütücüsü ve araştırmacı olarak görev almaktayım. Su bilimleri alanında
+      çok sayıda bilimsel makale, kitap bölümü ve ulusal/uluslararası bildiri yayımladım.
+    </p>
   </section>
 
   <!-- PUBLICATIONS -->
   <section id="publications">
     <h2>Öne Çıkan Yayınlar</h2>
     <ul>
-      <li><a href="https://link.springer.com/article/10.1007/s10499-026-02508-z" target="_blank" rel="noopener">Tunçelli, G., Azhar, M.H., Memiş, D., Erkan, N., Can-Tuncelli, I., Özden, Ö., Dagsuyu, E., Turkyilmaz Mutlu, İ.B., &amp; Yanardag, R. (2026). <em>Microplastic exposure reduces multi-trophic biomass yield in a freshwater integrated aquaculture system</em>Aquaculture International</a></li>
-      <li><a href="https://www.taylorfrancis.com/chapters/edit/10.1201/9781032717814-9/plastisphere-aquatic-food-production-systems-seafood-safety-idil-tuncelli-nuray-erkan-gokhan-tuncelli-devrim-memis" target="_blank" rel="noopener">Can Tunçelli, İ., Erkan Özden, N., Tunçelli, G., &amp; Memiş, D. (2025). <em>Plastisphere in Aquatic Food Production Systems and Seafood Safety</em>. CRC Press.</a></li>
-      <li><a href="https://onlinelibrary.wiley.com/doi/10.1111/jfb.15697" target="_blank" rel="noopener">Tunçelli, G., &amp; Memiş, D. (2024). The effect of swimming activity and feed restriction of rainbow trout (Oncorhynchus mykiss) on water quality and fish‐plant growth performance in aquaponics. <em>Journal of Fish Biology</em>, 104(5), 1493–1502.</a></li>
-      <li><a href="https://www.sciencedirect.com/science/article/pii/S0044848621006918" target="_blank" rel="noopener">Tunçelli, G., &amp; Pirhonen, J. (2021). Effects of weekend starvation and the duration of daily feeding on production parameters of rainbow trout Oncorhynchus mykiss. <em>Aquaculture</em>, 543, 737028.</a></li>
-      <li><a href="https://www.sciencedirect.com/science/article/pii/S0048969724036520" target="_blank" rel="noopener">Tuncelli, G., Tuncelli, I. C., Dagsuyu, E., Turkyilmaz, I. B., Yanardag, R., &amp; Erkan, N. (2024). The effect of different types of microplastic and acute cadmium exposure on the <em>Mytilus galloprovincialis</em> (Lamarck, 1819). <em>Science of The Total Environment</em>, 936, 173505.</a></li>
-      <li><a href="https://link.springer.com/article/10.1007/s10499-025-02016-6" target="_blank" rel="noopener">Tuncelli, G., Momin, M., &amp; Memis, D. (2025). Impact of early and late maturation on the reproductive performance broodstocks of Russian sturgeon (<em>Acipenser gueldenstaedtii</em>). <em>Aquaculture International</em>, 33(5), 322.</a></li>
-      <li><a href="https://onlinelibrary.wiley.com/doi/10.1002/eco.70116" target="_blank" rel="noopener">Tuncelli, G., (2025). Algae‐Based Diets Enhance Growth and Lipid Quality in Mediterranean Mussels: Implications for Ecohydrological Aquaculture Systems. <em>Ecohydrology</em>, 18(7), e70116</a></li>
+      <li>
+        <a href="https://link.springer.com/article/10.1007/s10499-026-02508-z" target="_blank" rel="noopener">
+          Tunçelli, G., Azhar, M.H., Memiş, D., Erkan, N., Can-Tuncelli, I., Özden, Ö., Dagsuyu, E., Turkyilmaz Mutlu, İ.B., &amp; Yanardag, R. (2026).
+          <em>Microplastic exposure reduces multi-trophic biomass yield in a freshwater integrated aquaculture system</em>. Aquaculture International.
+        </a>
+      </li>
+      <li>
+        <a href="https://www.taylorfrancis.com/chapters/edit/10.1201/9781032717814-9/plastisphere-aquatic-food-production-systems-seafood-safety-idil-tuncelli-nuray-erkan-gokhan-tuncelli-devrim-memis" target="_blank" rel="noopener">
+          Can Tunçelli, İ., Erkan Özden, N., Tunçelli, G., &amp; Memiş, D. (2025). <em>Plastisphere in Aquatic Food Production Systems and Seafood Safety</em>. CRC Press.
+        </a>
+      </li>
+      <li>
+        <a href="https://onlinelibrary.wiley.com/doi/10.1111/jfb.15697" target="_blank" rel="noopener">
+          Tunçelli, G., &amp; Memiş, D. (2024). The effect of swimming activity and feed restriction of rainbow trout (Oncorhynchus mykiss) on water quality and fish‐plant growth performance in aquaponics.
+          <em>Journal of Fish Biology</em>, 104(5), 1493–1502.
+        </a>
+      </li>
+      <li>
+        <a href="https://www.sciencedirect.com/science/article/pii/S0044848621006918" target="_blank" rel="noopener">
+          Tunçelli, G., &amp; Pirhonen, J. (2021). Effects of weekend starvation and the duration of daily feeding on production parameters of rainbow trout Oncorhynchus mykiss.
+          <em>Aquaculture</em>, 543, 737028.
+        </a>
+      </li>
+      <li>
+        <a href="https://www.sciencedirect.com/science/article/pii/S0048969724036520" target="_blank" rel="noopener">
+          Tuncelli, G., Tuncelli, I. C., Dagsuyu, E., Turkyilmaz, I. B., Yanardag, R., &amp; Erkan, N. (2024).
+          The effect of different types of microplastic and acute cadmium exposure on the <em>Mytilus galloprovincialis</em> (Lamarck, 1819).
+          <em>Science of The Total Environment</em>, 936, 173505.
+        </a>
+      </li>
+      <li>
+        <a href="https://link.springer.com/article/10.1007/s10499-025-02016-6" target="_blank" rel="noopener">
+          Tuncelli, G., Momin, M., &amp; Memis, D. (2025). Impact of early and late maturation on the reproductive performance broodstocks of Russian sturgeon (<em>Acipenser gueldenstaedtii</em>).
+          <em>Aquaculture International</em>, 33(5), 322.
+        </a>
+      </li>
+      <li>
+        <a href="https://onlinelibrary.wiley.com/doi/10.1002/eco.70116" target="_blank" rel="noopener">
+          Tuncelli, G. (2025). Algae‐Based Diets Enhance Growth and Lipid Quality in Mediterranean Mussels: Implications for Ecohydrological Aquaculture Systems.
+          <em>Ecohydrology</em>, 18(7), e70116.
+        </a>
+      </li>
     </ul>
   </section>
 
@@ -97,10 +219,22 @@
   <section id="projects">
     <h2>Projeler</h2>
     <ul>
-      <li><strong>Swimming Performance and Heart Rate of Eels During Sexual Maturation</strong><br />AB Destekli Proje (AQUAEXCEL, TNA) — Tunçelli G. (Yürütücü), Memiş D., Palstra A., Abbink W.</li>
-      <li><strong>Gökkuşağı Alabalığı ve Karaca Mersin Balığında Mikroplastik Kirliliğinin Yüzme Performansına Etkisi</strong><br />Yükseköğretim Kurumları Destekli Proje (2024–2026) — Tunçelli G. (Yürütücü) ve ekibi</li>
-      <li><strong>Mikroplastiklerin Tatlı Su IMTA Sisteminde Etkisi</strong><br />TÜBİTAK – AB COST Projesi (2024–2027) — Tunçelli G. (Araştırmacı)</li>
-      <li><strong>Mikroplastik ve Cıva Maruziyetinin Midyelerde (<em>Mytilus galloprovincialis</em>, Lamarck, 1819) Oluşturduğu Hasarın Bor Katkılı Depurasyonda Giderimi</strong><br />TÜBİTAK – 1001 Projesi (2022–2025) — Tunçelli G. (Araştırmacı)</li>
+      <li>
+        <strong>Swimming Performance and Heart Rate of Eels During Sexual Maturation</strong><br />
+        AB Destekli Proje (AQUAEXCEL, TNA) — Tunçelli G. (Yürütücü), Memiş D., Palstra A., Abbink W.
+      </li>
+      <li>
+        <strong>Gökkuşağı Alabalığı ve Karaca Mersin Balığında Mikroplastik Kirliliğinin Yüzme Performansına Etkisi</strong><br />
+        Yükseköğretim Kurumları Destekli Proje (2024–2026) — Tunçelli G. (Yürütücü) ve ekibi
+      </li>
+      <li>
+        <strong>Mikroplastiklerin Tatlı Su IMTA Sisteminde Etkisi</strong><br />
+        TÜBİTAK – AB COST Projesi (2024–2027) — Tunçelli G. (Araştırmacı)
+      </li>
+      <li>
+        <strong>Mikroplastik ve Cıva Maruziyetinin Midyelerde (<em>Mytilus galloprovincialis</em>, Lamarck, 1819) Oluşturduğu Hasarın Bor Katkılı Depurasyonda Giderimi</strong><br />
+        TÜBİTAK – 1001 Projesi (2022–2025) — Tunçelli G. (Araştırmacı)
+      </li>
     </ul>
   </section>
 
@@ -109,9 +243,38 @@
     <h2>Haberler</h2>
 
     <article class="news-card">
+      <h3>📰 Mikroplastikler Su Ürünleri Yetiştiriciliğinde Üretimi Düşürebilir (Anadolu Ajansı)</h3>
+      <div class="news-meta"><strong>3 Nisan 2026</strong></div>
+      <p>
+        İstanbul Üniversitesinde yürütülen araştırmada, mikroplastik maruziyetinin su ürünleri yetiştiriciliğinde
+        üretim performansını olumsuz etkileyebileceği ve toplam biyokütle üretiminde düşüşe yol açabileceği ortaya kondu.
+      </p>
+      <div class="gallery">
+        <a href="/akuakultur-1.jpg" target="_blank" rel="noopener">
+          <img src="/akuakultur-1.jpg" alt="Mikroplastik haberi görsel 1">
+        </a>
+        <a href="/akuakultur-2.jpeg" target="_blank" rel="noopener">
+          <img src="/akuakultur-2.jpeg" alt="Mikroplastik haberi görsel 2">
+        </a>
+        <a href="/akuakultur-9.jpg" target="_blank" rel="noopener">
+          <img src="/akuakultur-9.jpg" alt="Mikroplastik haberi görsel 3">
+        </a>
+        <a href="/akuakultur-13.jpg" target="_blank" rel="noopener">
+          <img src="/akuakultur-13.jpg" alt="Mikroplastik haberi görsel 4">
+        </a>
+      </div>
+      <p class="extlink">
+        🔗 <a href="https://www.aa.com.tr/tr/yesilhat/bilim/mikroplastikler-su-urunleri-yetistiriciliginde-uretimi-dusurebilir/1829738" target="_blank" rel="noopener">Haberi oku → Anadolu Ajansı</a>
+        <small>Kaynak: Anadolu Ajansı</small>
+      </p>
+    </article>
+
+    <article class="news-card">
       <h3>📰 Akuaponik Atıklarının Mikroalg Üretiminde Kullanılması (Anadolu Ajansı)</h3>
       <div class="news-meta"><strong>25 Eylül 2025</strong></div>
-      <p>Balık yetiştiriciliği atıkları, mikroalglere dönüştürülerek denizlerin kirlilik yükünün azaltılmasına katkı sağlıyor.</p>
+      <p>
+        Balık yetiştiriciliği atıkları, mikroalglere dönüştürülerek denizlerin kirlilik yükünün azaltılmasına katkı sağlıyor.
+      </p>
       <p class="extlink">
         🔗 <a href="https://www.aa.com.tr/tr/yesilhat/bilim/balik-yetistiriciligi-atiklari-alglere-donusturulerek-denizlerin-kirlilik-yuku-azaltiliyor/1827331" target="_blank" rel="noopener">Haberi oku → Anadolu Ajansı</a>
         <small>Kaynak: Anadolu Ajansı</small>
@@ -121,7 +284,10 @@
     <article class="news-card">
       <h3>📰 Üniversitedeki İlk Dersimi Verdim!</h3>
       <div class="news-meta"><strong>29 Temmuz 2025</strong></div>
-      <p>“İÜ Ailece Tercih Günleri” kapsamında düzenlenen “İlk Ders 101” etkinliğinde, Su Bilimleri Fakültesi’nin ilk amfi dersini <em>“Su Bilimleri ve Gelecek Vizyonu”</em> başlığıyla verdim.</p>
+      <p>
+        “İÜ Ailece Tercih Günleri” kapsamında düzenlenen “İlk Ders 101” etkinliğinde, Su Bilimleri Fakültesi’nin ilk amfi dersini
+        <em>“Su Bilimleri ve Gelecek Vizyonu”</em> başlığıyla verdim.
+      </p>
       <div class="gallery">
         <a href="/IMG-20250729-WA0096.jpg" target="_blank" rel="noopener">
           <img src="/IMG-20250729-WA0096.jpg" alt="Ders Fotoğrafı 1">
@@ -144,13 +310,15 @@
     <article class="news-card">
       <h3>📰 Akuaponik Sistemler Haberi (TRT Haber)</h3>
       <div class="news-meta"><strong>10 Şubat 2021</strong></div>
-      <p>Topraksız tarım ile su ürünleri yetiştiriciliğinin birleşiminden oluşan <strong>akuaponik sistemler</strong>, hem ekonomik hem de ekolojik etkileriyle yüksek verimlilik sağlıyor.</p>
+      <p>
+        Topraksız tarım ile su ürünleri yetiştiriciliğinin birleşiminden oluşan <strong>akuaponik sistemler</strong>,
+        hem ekonomik hem de ekolojik etkileriyle yüksek verimlilik sağlıyor.
+      </p>
       <p class="extlink">
         🔗 <a href="https://www.trthaber.com/haber/bilim-teknoloji/ekonomik-ve-ekolojik-tarim-modeli-akuaponik-555314.html" target="_blank" rel="noopener">Haberi oku → TRT Haber</a>
         <small>Kaynak: TRT Haber</small>
       </p>
     </article>
-
   </section>
 
   <!-- CONTACT -->
@@ -165,7 +333,7 @@
 
   <!-- FOOTER -->
   <footer>
-    <p>&copy; 2025 Dr. Öğr. Üyesi Gökhan Tunçelli</p>
+    <p>&copy; 2026 Dr. Öğr. Üyesi Gökhan Tunçelli</p>
   </footer>
 
 </body>
