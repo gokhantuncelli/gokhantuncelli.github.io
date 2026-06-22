@@ -132,6 +132,57 @@
     h2{color:var(--blue-900);margin-top:0}
     ul{padding-left:18px}
 
+
+
+    /* PUBLICATIONS */
+    .publication-grid{
+      display:grid;
+      grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+      gap:18px;
+      margin-top:18px;
+    }
+    .publication-card{
+      display:block;
+      background:#fff;
+      border:1px solid #e7e9ec;
+      border-radius:14px;
+      overflow:hidden;
+      text-decoration:none;
+      color:#222;
+      box-shadow:0 4px 12px rgba(0,0,0,.04);
+      transition:transform .15s ease, box-shadow .15s ease;
+    }
+    .publication-card:hover{
+      transform:translateY(-3px);
+      box-shadow:0 8px 20px rgba(0,0,0,.10);
+    }
+    .publication-thumb{
+      background:#eef1f4;
+      border-bottom:1px solid #e7e9ec;
+    }
+    .publication-thumb img{
+      width:100%;
+      height:300px;
+      object-fit:cover;
+      object-position:top center;
+      display:block;
+    }
+    .publication-info{
+      padding:12px 13px 14px;
+    }
+    .publication-info h3{
+      margin:0 0 6px;
+      font-size:1rem;
+      color:var(--blue-900);
+      line-height:1.35;
+    }
+    .publication-info p{
+      margin:0;
+      font-size:.9rem;
+      color:#555;
+      line-height:1.45;
+    }
+
     /* NEWS */
     .news-card{
       background:#fff;
@@ -235,50 +286,77 @@
   <!-- PUBLICATIONS -->
   <section id="publications">
     <h2>Öne Çıkan Yayınlar</h2>
-    <ul>
-      <li>
-        <a href="https://link.springer.com/article/10.1007/s10499-026-02508-z" target="_blank" rel="noopener">
-          Tunçelli, G., Azhar, M.H., Memiş, D., Erkan, N., Can-Tuncelli, I., Özden, Ö., Dagsuyu, E., Turkyilmaz Mutlu, İ.B., &amp; Yanardag, R. (2026).
-          <em>Microplastic exposure reduces multi-trophic biomass yield in a freshwater integrated aquaculture system</em>. Aquaculture International.
-        </a>
-      </li>
-      <li>
-        <a href="https://www.taylorfrancis.com/chapters/edit/10.1201/9781032717814-9/plastisphere-aquatic-food-production-systems-seafood-safety-idil-tuncelli-nuray-erkan-gokhan-tuncelli-devrim-memis" target="_blank" rel="noopener">
-          Can Tunçelli, İ., Erkan Özden, N., Tunçelli, G., &amp; Memiş, D. (2025). <em>Plastisphere in Aquatic Food Production Systems and Seafood Safety</em>. CRC Press.
-        </a>
-      </li>
-      <li>
-        <a href="https://onlinelibrary.wiley.com/doi/10.1111/jfb.15697" target="_blank" rel="noopener">
-          Tunçelli, G., &amp; Memiş, D. (2024). The effect of swimming activity and feed restriction of rainbow trout (Oncorhynchus mykiss) on water quality and fish‐plant growth performance in aquaponics.
-          <em>Journal of Fish Biology</em>, 104(5), 1493–1502.
-        </a>
-      </li>
-      <li>
-        <a href="https://www.sciencedirect.com/science/article/pii/S0044848621006918" target="_blank" rel="noopener">
-          Tunçelli, G., &amp; Pirhonen, J. (2021). Effects of weekend starvation and the duration of daily feeding on production parameters of rainbow trout Oncorhynchus mykiss.
-          <em>Aquaculture</em>, 543, 737028.
-        </a>
-      </li>
-      <li>
-        <a href="https://www.sciencedirect.com/science/article/pii/S0048969724036520" target="_blank" rel="noopener">
-          Tuncelli, G., Tuncelli, I. C., Dagsuyu, E., Turkyilmaz, I. B., Yanardag, R., &amp; Erkan, N. (2024).
-          The effect of different types of microplastic and acute cadmium exposure on the <em>Mytilus galloprovincialis</em> (Lamarck, 1819).
-          <em>Science of The Total Environment</em>, 936, 173505.
-        </a>
-      </li>
-      <li>
-        <a href="https://link.springer.com/article/10.1007/s10499-025-02016-6" target="_blank" rel="noopener">
-          Tuncelli, G., Momin, M., &amp; Memis, D. (2025). Impact of early and late maturation on the reproductive performance broodstocks of Russian sturgeon (<em>Acipenser gueldenstaedtii</em>).
-          <em>Aquaculture International</em>, 33(5), 322.
-        </a>
-      </li>
-      <li>
-        <a href="https://onlinelibrary.wiley.com/doi/10.1002/eco.70116" target="_blank" rel="noopener">
-          Tuncelli, G. (2025). Algae‐Based Diets Enhance Growth and Lipid Quality in Mediterranean Mussels: Implications for Ecohydrological Aquaculture Systems.
-          <em>Ecohydrology</em>, 18(7), e70116.
-        </a>
-      </li>
-    </ul>
+    <div class="publication-grid">
+      <a class="publication-card" href="https://link.springer.com/article/10.1007/s10499-026-02508-z" target="_blank" rel="noopener">
+        <div class="publication-thumb">
+          <img src="/assets/images/pub-microplastic-exposure-2026.jpg" alt="Microplastic exposure reduces multi-trophic biomass yield makalesinin ilk sayfası">
+        </div>
+        <div class="publication-info">
+          <h3>Microplastic exposure reduces multi-trophic biomass yield</h3>
+          <p>Aquaculture International · 2026</p>
+        </div>
+      </a>
+
+      <a class="publication-card" href="https://www.taylorfrancis.com/chapters/edit/10.1201/9781032717814-9/plastisphere-aquatic-food-production-systems-seafood-safety-idil-tuncelli-nuray-erkan-gokhan-tuncelli-devrim-memis" target="_blank" rel="noopener">
+        <div class="publication-thumb">
+          <img src="/assets/images/pub-plastisphere-2025.jpg" alt="Plastisphere in Aquatic Food Production Systems and Seafood Safety kitap bölümünün ilk sayfası">
+        </div>
+        <div class="publication-info">
+          <h3>Plastisphere in Aquatic Food Production Systems and Seafood Safety</h3>
+          <p>CRC Press · 2025</p>
+        </div>
+      </a>
+
+      <a class="publication-card" href="https://onlinelibrary.wiley.com/doi/10.1111/jfb.15697" target="_blank" rel="noopener">
+        <div class="publication-thumb">
+          <img src="/assets/images/pub-jfb-aquaponics-2024.jpg" alt="Journal of Fish Biology aquaponics makalesinin ilk sayfası">
+        </div>
+        <div class="publication-info">
+          <h3>Swimming activity and feed restriction in aquaponics</h3>
+          <p>Journal of Fish Biology · 2024</p>
+        </div>
+      </a>
+
+      <a class="publication-card" href="https://www.sciencedirect.com/science/article/pii/S0044848621006918" target="_blank" rel="noopener">
+        <div class="publication-thumb">
+          <img src="/assets/images/pub-aquaculture-weekend-starvation-2021.jpg" alt="Aquaculture weekend starvation makalesinin ilk sayfası">
+        </div>
+        <div class="publication-info">
+          <h3>Weekend starvation and daily feeding duration in rainbow trout</h3>
+          <p>Aquaculture · 2021</p>
+        </div>
+      </a>
+
+      <a class="publication-card" href="https://www.sciencedirect.com/science/article/pii/S0048969724036520" target="_blank" rel="noopener">
+        <div class="publication-thumb">
+          <img src="/assets/images/pub-stoten-cadmium-microplastic-2024.jpg" alt="Science of The Total Environment mikroplastik ve kadmiyum makalesinin ilk sayfası">
+        </div>
+        <div class="publication-info">
+          <h3>Microplastic and acute cadmium exposure in Mytilus galloprovincialis</h3>
+          <p>Science of The Total Environment · 2024</p>
+        </div>
+      </a>
+
+      <a class="publication-card" href="https://link.springer.com/article/10.1007/s10499-025-02016-6" target="_blank" rel="noopener">
+        <div class="publication-thumb">
+          <img src="/assets/images/pub-sturgeon-maturation-2025.jpg" alt="Russian sturgeon broodstock makalesinin ilk sayfası">
+        </div>
+        <div class="publication-info">
+          <h3>Early and late maturation in Russian sturgeon broodstocks</h3>
+          <p>Aquaculture International · 2025</p>
+        </div>
+      </a>
+
+      <a class="publication-card" href="https://onlinelibrary.wiley.com/doi/10.1002/eco.70116" target="_blank" rel="noopener">
+        <div class="publication-thumb">
+          <img src="/assets/images/pub-ecohydrology-mussels-2025.jpg" alt="Ecohydrology algae-based diets makalesinin ilk sayfası">
+        </div>
+        <div class="publication-info">
+          <h3>Algae-based diets enhance growth and lipid quality in mussels</h3>
+          <p>Ecohydrology · 2025</p>
+        </div>
+      </a>
+    </div>
   </section>
 
   <!-- PROJECTS -->
